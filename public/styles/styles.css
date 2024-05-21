@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(79, 18, 7);
+  margin: 20px 0 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 400px;
+  padding-inline: 20px;
+}
+
+#username,
+#password {
+  padding: 4px;
+  border-radius: 5px;
+}
+input {
+  height: 40px;
+  border: 1px solid tomato;
+}
+#login {
+  background-color: tomato;
+  border: none;
+  padding: 4px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+}
+
+#login:hover {
+  background-color: white;
+  color: tomato;
+  border: 1px solid tomato;
+  cursor: pointer;
+}
